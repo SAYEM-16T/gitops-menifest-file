@@ -18,7 +18,7 @@ spec:
         runAsUser: 10001
       containers:
         - name: server
-          image: todo-application-go-mongo:78
+          image: todo-application-go-mongo:79
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
